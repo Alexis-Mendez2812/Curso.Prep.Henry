@@ -1,0 +1,88 @@
+1 
+    * Variables: 
+guarda informacion con un nombre y valor para ser reveladas mas adelante.
+
+var peso = '12kg';
+var(codigo para insertar una variable) 
+peso(nombre de la var) 
+=(separa y define que lo suiguiente luego de esta linea sera la informacion guardada dentro de la variable) 
+'12kg'(se le llama valor, es la informacion que sera guardada dentro de la variable)
+;(siempre luego de cada asignacion. simula el punto seguido en un texto literario, sumamente necesario para poder pasar a otra asignacion)
+
+las variables tienen propiedades matematicas, es decir se pueden sumar entre ellas(tambien restar, multiplicar,etc).
+las variables se pueden sobreescribir los Valores
+const(es una variable que no se puede sobreescribir su valor)
+se peuden llamar de cualquier manera exceptuando ciertos terminos reservados para la codificacion por ejemplo:
+var var
+var const
+
+	* Strings
+
+    'hilo de caracteres ' (el valor siempre debe de ir entre comillas),es un tipo de dato, los Strings son los valores de las variables que buscamos que sean imporesas en la pantalla.
+
+
+    * Funciones (argumentos, `return`)
+
+    function miFuncion() {}
+    sirven para agupar codigo que sera necesario ser utilizado muchas veces.  es decir las funciones funcionan como un conjunto de variables que se pueden invocar con la palabra clave funcion + el nombre de la funcion
+    
+    tambien tienen argumentos
+function logHola(nombre) {
+    console.log( `Hola, ${nombre}`);
+}
+
+var miNombre = 'Antonio';
+logHola(miNombre);
+el argumento siempre se inserta entre parentesis luego del nombre de la funcion.
+
+
+y tambien se pueden agregar múltiples argumentos colocando una coma entre ellos:
+
+function sumarDosNumeros(a, b) {
+  var suma = a + b;
+  return suma;
+}
+
+sumarDosNumeros(1, 5); // 6
+
+en el ultimo ejemplo agregamos "return" es un codigo final que la consola imprimira por ultimo lo que este en la linea de return.
+todo codigo dentro de las llaves pero despues del return no sera impreso en la consola.
+ 
+    * Declaraciones `if`
+
+ayudan en las funciones a tener un flujo de control, en casos condicionales donde se precentan casos donde se ingresan condiciones booleanas.
+en estos casos se usan simbolos de comparacion.
+<, <=, >, > =, ===, ! == // son esos :)
+
+function puedeManejar(edad) {
+    if (edad > 18) {
+        return true;
+    }
+
+    return false;
+}
+
+puedeManejar(22); // true
+
+
+otro ejemplo puede ser el siguiente donde el "if" es acompañado por una "else if" y una "else".
+para poder manejar situaciones donde el flujo de control es mas complejo.
+
+var edad = 21
+
+if(edad > 30) {
+    console.log ("viejo")
+} else if (edad > 20) {
+    console.log ("joven")
+} else{
+    console.log ("bebe")
+}
+
+  joven //resultado 
+  
+
+    * Valores booleanos (`true`, `false`)
+
+    Es un tipo de dato,se usa true o false para declarar si o no, 
+    activar o desactivar,etc. es decir se usan en ciertas condiciones que requieran tomar una accion 
+    u otra respecto de la informacion que se recive.
