@@ -1102,13 +1102,34 @@ console.log(triple); // [ 6, 9, 12, 15 ]
 ## Abre la carpeta "homework" y completa la tarea descrita en el archivo README
 [Homework](https://github.com/atralice/Curso.Prep.Henry/tree/master/07-JS-VI/homework)
 
-## Recursos adicionales
+## Recursos adicionales+
+
 
 * [Understanding Callback Functions and How to Use Them](http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/)
 * [Eloquent Javascript: Higher Order Functions](https://eloquentjavascript.net/05_higher_order.html)
 * [MDN: Callback function](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
 * [MDN: Array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
+
+
+
+
+
+
+.
+
+
+
+
+
+
+##
+
+
+
+
+##
+//HTML
 ## Introducción HTML
 
 HTML es el bloque básico con el que está construido internet. Todas las páginas web utilizan HTML. *No es un lenguaje de programación* propiamente dicho, sino, es un lenguaje de [**Markup**](https://es.wikipedia.org/wiki/Lenguaje_de_marcado): son lenguajes que incorporan al texto marcas o etiquetas que luego son interpretadas para darle información extra sobre la estructura del texto. En el caso de HTML, este será interpretado por los browsers, que tambien presentaran el código en forma gráfica.
