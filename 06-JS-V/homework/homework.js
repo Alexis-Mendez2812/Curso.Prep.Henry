@@ -1,4 +1,4 @@
-// No cambies los nombres de las funciones.
+ // No cambies los nombres de las funciones.
 
 function crearUsuario() {
   // Crea una Clase de ES6 o una función constructor llamada "Usuario"
@@ -8,12 +8,12 @@ function crearUsuario() {
   // {{nombre}} debe ser el nombre definido en cada instancia
   // Devuelve la clase
   // Tu código:
-   class Usuario {
+    class Usuario {
      constructor(opciones) {
-       this.usuario = opciones.usuario,
-       this.nombre = opciones.nombre,
-       this.email = opciones.email,
-       this.password = opciones.password,
+       this.usuario = opciones.usuario;
+       this.nombre = opciones.nombre;
+       this.email = opciones.email;
+       this.password = opciones.password;
        this.saludar = function () {
          return "Hola, mi nombre es " + this.nombre;
        }
